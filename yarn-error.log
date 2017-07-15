@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\TeeMa\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Java;C:\MinGW\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\RemObjects Software\Elements\bin;C:\Users\TeeMa\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\TDM-GCC-64\bin;C:\Python35/Scripts;C:\Program Files (x86)\Brackets\command;C:\Program Files\PostgreSQL\9.6\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\TeeMa\Vim\vim80;C:\Program Files\nodejs\;C:\Users\TeeMa\Vim;C:\Program Files\PostgreSQL\9.6/bin;C:\Ruby23\bin;C:\Users\TeeMa\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\TeeMa\AppData\Local\Programs\Python\Python36-32\;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.2.0\bin;C:\Users\TeeMa\AppData\Local\Microsoft\WindowsApps;C:\Users\TeeMa\AppData\Local\learn_ide\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Heroku\bin;C:\path-to-ruby\bin;C:\Users\TeeMa\AppData\Local\Android\sdk\platform-tools;C:\Users\TeeMa\AppData\Roaming\npm
+
+Yarn version: 
+  0.24.4
+
+Node version: 
+  8.1.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "firebase-auth",
+    "version": "0.0.0",
+    "description": "Hello Expo!",
+    "author": null,
+    "private": true,
+    "main": "node_modules/expo/AppEntry.js",
+    "dependencies": {
+      "axios": "^0.16.2",
+      "expo": "^18.0.4",
+      "react": "16.0.0-alpha.12",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-18.0.1.tar.gz",
+      "react-native-elements": "^0.14.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\TeeMa\Desktop\native\firebase-auth\node_modules\firebase\node_modules'
