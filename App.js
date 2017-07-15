@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import SignupForm from './src/components/SignupForm';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Initial Commit!</Text>
-        <Text>Initial Commit!</Text>
+        <SignupForm />
       </View>
     );
   }
